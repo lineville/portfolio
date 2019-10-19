@@ -36,6 +36,10 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/dots.b81dabc0.png"
   },
   {
+    "revision": "8fdf9ee20db40e5d1cf778bf99486cb7",
+    "url": "/portfolio/static/media/square4.8fdf9ee2.png"
+  },
+  {
     "revision": "ca25707397fcc982d7dc1f82555f09a0",
     "url": "/portfolio/static/media/square1.ca257073.png"
   },
@@ -46,10 +50,6 @@ self.__precacheManifest = [
   {
     "revision": "23fa76237f0066f4ffd8f20e77449887",
     "url": "/portfolio/static/media/square3.23fa7623.png"
-  },
-  {
-    "revision": "8fdf9ee20db40e5d1cf778bf99486cb7",
-    "url": "/portfolio/static/media/square4.8fdf9ee2.png"
   },
   {
     "revision": "ff004a0e5de54ba9dbd8583fa7e1b3f5",
