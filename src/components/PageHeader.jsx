@@ -15,10 +15,10 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React from 'react'
 
 // reactstrap components
-import { Container } from "reactstrap";
+import { Container } from 'reactstrap'
 
 class PageHeader extends React.Component {
   render() {
@@ -36,13 +36,13 @@ class PageHeader extends React.Component {
             <h1 className="h1-seo">Liam Neville Software</h1>
             {/* <img src={require("assets/img/lion-icon.jpg")} alt="..." className="img-raised" width="80" height="80"/> */}
             <h3 className="d-none d-sm-block">
-              Beautiful, Simple, Powerful Web Apps made a la carte
+              Powerful, Intuitive, Flexible Web Apps
             </h3>
           </div>
         </Container>
       </div>
-    );
+    )
   }
 }
 
-export default PageHeader;
+export default PageHeader
