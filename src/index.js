@@ -15,22 +15,22 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 
-import "assets/css/nucleo-icons.css";
-import "assets/scss/blk-design-system-react.scss?v=1.0.0";
-import "assets/demo/demo.css";
+import 'assets/css/nucleo-icons.css'
+import 'assets/scss/blk-design-system-react.scss?v=1.0.0'
+import 'assets/demo/demo.css'
 
-import Index from "./components/Index";
+import Index from './components/Index'
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/components" render={props => <Index {...props} />} />
-      <Redirect from="/" to="/components" />
+      <Route path="/" render={props => <Index {...props} />} />
+      <Redirect from="/" to="/" />
     </Switch>
   </BrowserRouter>,
-  document.getElementById("root")
-);
+  document.getElementById('root')
+)
