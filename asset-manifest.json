@@ -1,0 +1,23 @@
+{
+  "main.css": "/portfolio/static/css/main.d9c0deb0.chunk.css",
+  "main.js": "/portfolio/static/js/main.fd942ce2.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.fd942ce2.chunk.js.map",
+  "runtime~main.js": "/portfolio/static/js/runtime~main.53ebc025.js",
+  "runtime~main.js.map": "/portfolio/static/js/runtime~main.53ebc025.js.map",
+  "static/js/2.3dda4bdb.chunk.js": "/portfolio/static/js/2.3dda4bdb.chunk.js",
+  "static/js/2.3dda4bdb.chunk.js.map": "/portfolio/static/js/2.3dda4bdb.chunk.js.map",
+  "index.html": "/portfolio/index.html",
+  "precache-manifest.a489e8a8ea4a8ad4102925d19aab4d1a.js": "/portfolio/precache-manifest.a489e8a8ea4a8ad4102925d19aab4d1a.js",
+  "service-worker.js": "/portfolio/service-worker.js",
+  "static/css/main.d9c0deb0.chunk.css.map": "/portfolio/static/css/main.d9c0deb0.chunk.css.map",
+  "static/media/dots.png": "/portfolio/static/media/dots.b81dabc0.png",
+  "static/media/get-stuff-done.JPG": "/portfolio/static/media/get-stuff-done.dafb511b.JPG",
+  "static/media/graceshopper-shoelala.JPG": "/portfolio/static/media/graceshopper-shoelala.3b9eaea1.JPG",
+  "static/media/liam.jfif": "/portfolio/static/media/liam.83129824.jfif",
+  "static/media/nba-playoff-simulator.JPG": "/portfolio/static/media/nba-playoff-simulator.87e8417f.JPG",
+  "static/media/nucleo-icons.css": "/portfolio/static/media/nucleo.f0b489a5.woff",
+  "static/media/path1.png": "/portfolio/static/media/path1.b1e01ebb.png",
+  "static/media/path4.png": "/portfolio/static/media/path4.e37326c7.png",
+  "static/media/sensical.jpeg": "/portfolio/static/media/sensical.09889409.jpeg",
+  "static/media/blk-design-system-react.scss?v=1.0.0": "/portfolio/static/media/square5.ff004a0e.png"
+}
