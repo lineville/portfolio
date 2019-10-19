@@ -172,8 +172,8 @@ class ComponentsNavbar extends React.Component {
                   <p className="d-lg-none d-xl-none">LinkedIn</p>
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <a href="Liam-Neville-Resume.pdf" download>
+              <NavItem className="p-0">
+                <a href="/Liam-Neville-Resume.pdf" download>
                   <Button
                     className="nav-link d-none d-lg-block"
                     color="default"
