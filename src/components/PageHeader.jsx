@@ -35,7 +35,7 @@ class PageHeader extends React.Component {
           <div className="content-center brand">
             <h1 className="h1-seo">Liam Neville Software</h1>
             {/* <img src={require("assets/img/lion-icon.jpg")} alt="..." className="img-raised" width="80" height="80"/> */}
-            <h3 className="d-none d-sm-block">
+            <h3 className="d-none d-sm-block" id="special-color">
               Powerful, Intuitive, Flexible Web Apps
             </h3>
           </div>

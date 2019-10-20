@@ -60,6 +60,7 @@ class Examples extends React.Component {
                   href="https://sensical.herokuapp.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  id="special-color"
                 >
                   Sensical
                 </Button>
@@ -85,6 +86,7 @@ class Examples extends React.Component {
                   color="primary"
                   href="https://nba-playoff-simulator.herokuapp.com/"
                   target="_blank"
+                  id="special-color"
                 >
                   NBA Playoff Simulator
                 </Button>
@@ -112,6 +114,7 @@ class Examples extends React.Component {
                   className="btn-simple btn-round"
                   color="primary"
                   href="https://graceshopper-shoelala.herokuapp.com/"
+                  id="special-color"
                   target="_blank"
                 >
                   E-Commerce App
@@ -137,6 +140,7 @@ class Examples extends React.Component {
                   className="btn-simple btn-round"
                   color="primary"
                   href="https://getstuffdone-82116.firebaseapp.com/"
+                  id="special-color"
                   target="_blank"
                 >
                   Todo FireStore-React App
@@ -193,8 +197,9 @@ class Examples extends React.Component {
                       src={require('assets/img/liam.jfif')}
                       z-index={2}
                     />
-                    <h4 className="title text-center">Skills</h4>
-                    {/* <h5 className="title">Skills</h5> */}
+                    <h4 className="title text-center" id="special-color">
+                      Skills
+                    </h4>
                   </CardHeader>
 
                   <CardBody>
