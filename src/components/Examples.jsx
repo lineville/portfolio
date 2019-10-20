@@ -172,13 +172,16 @@ class Examples extends React.Component {
                   experience. I'm a self starter who's built various projects
                   solo and in teams using a wide variety of languages,
                   technologies, frameworks and design patterns. I currently work
-                  as Software Engineer for a solid-state battery start up in San
-                  Jose where I develop internal applications using Angular.JS,
-                  C#, .Net, EntityFramework, MySql, Kendo-UI and other tools
-                  daily. I have extensive experience with React, Firebase,
-                  JavaScript, TypeScript, Java, Pyton, Haskell, Go, Ruby, Ruby
-                  on Rails, Functional Programming, OO programming, Web
-                  Development and various other technologies and frameworks.
+                  as a Software Engineer for a solid-state battery start up in
+                  San Jose where I develop internal applications using
+                  Angular.JS, C#, .Net, EntityFramework, MySql, Kendo-UI and
+                  other tools every day. I have extensive experience with React,
+                  Firebase, JavaScript, TypeScript, Java, Pyton, C#, Haskell,
+                  Go, Ruby, Ruby on Rails, PostgreSQL, Node.JS, CI/CD,
+                  Functional Programming, OO programming, Web Development and
+                  various other technologies and frameworks. If you would like
+                  to get in contact with me you can reach me at
+                  liamgneville@gmail.com
                 </p>
               </Col>
               <Col className="ml-auto mr-auto" lg="4" md="6">
