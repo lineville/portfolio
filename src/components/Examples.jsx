@@ -168,7 +168,7 @@ class Examples extends React.Component {
           />
           <Container className="align-items-center">
             <Row>
-              <Col lg="6" md="6">
+              <Col lg="6" md="3">
                 <h1 className="profile-title text-left">Liam Neville</h1>
                 <h3 className="text-on-back">About Me</h3>
                 <p className="profile-description">
@@ -204,6 +204,13 @@ class Examples extends React.Component {
 
                   <CardBody>
                     <div className="progress-container progress-info">
+                      <span className="progress-badge">
+                        Willingness to Learn
+                      </span>
+                      <Progress max="100" value="100"></Progress>
+                    </div>
+
+                    <div className="progress-container progress-info">
                       <span className="progress-badge">React</span>
                       <Progress max="100" value="85"></Progress>
                     </div>
@@ -215,17 +222,17 @@ class Examples extends React.Component {
 
                     <div className="progress-container progress-info">
                       <span className="progress-badge">Java</span>
-                      <Progress max="100" value="80"></Progress>
-                    </div>
-
-                    <div className="progress-container progress-info">
-                      <span className="progress-badge">TypeScript</span>
                       <Progress max="100" value="90"></Progress>
                     </div>
 
                     <div className="progress-container progress-info">
+                      <span className="progress-badge">TypeScript</span>
+                      <Progress max="100" value="85"></Progress>
+                    </div>
+
+                    <div className="progress-container progress-info">
                       <span className="progress-badge">Python</span>
-                      <Progress max="100" value="60"></Progress>
+                      <Progress max="100" value="70"></Progress>
                     </div>
 
                     <div className="progress-container progress-info">
