@@ -10093,7 +10093,7 @@ img {
     justify-content: space-between !important; }
   .navbar-collapse {
     position: absolute;
-    width: calc(100% - 1.4rem);
+    /* width: calc(100% - 1.4rem); */
     height: auto !important;
     left: 0;
     top: 0;
@@ -10271,8 +10271,7 @@ hr {
     font-size: auto-0.75; }
 
 .icon + .icon-text {
-  padding-left: 1rem;
-  width: calc(100% - auto - 1); }
+  padding-left: 1rem; }
 
 .icon-xl {
   width: 5rem;
@@ -10280,17 +10279,11 @@ hr {
   .icon-xl i, .icon-xl svg {
     font-size: 4.25rem; }
 
-.icon-xl + .icon-text {
-  width: calc(100% - $icon-size-xl - 1); }
-
 .icon-lg {
   width: 3.7rem;
   height: 3.7rem; }
   .icon-lg i, .icon-lg svg {
     font-size: 2.95rem; }
-
-.icon-lg + .icon-text {
-  width: calc(100% - $icon-size-lg - 1); }
 
 .icon-sm {
   width: 1.875rem;
@@ -10298,8 +10291,6 @@ hr {
   .icon-sm i, .icon-sm svg {
     font-size: 1.125rem; }
 
-.icon-sm + .icon-text {
-  width: calc(100% - $icon-size-sm - 1); }
 
 .icon-shape {
   padding: 12px;

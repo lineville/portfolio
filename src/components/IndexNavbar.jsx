@@ -15,9 +15,8 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
-import { Link } from "react-router-dom";
-// reactstrap components
+import React from 'react'
+import { Link } from 'react-router-dom'
 import {
   Button,
   Collapse,
@@ -28,22 +27,22 @@ import {
   Nav,
   Container,
   Row,
-  Col
-} from "reactstrap";
+  Col,
+} from 'reactstrap'
 
 class ComponentsNavbar extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       collapseOpen: false,
-      color: "navbar-transparent"
-    };
+      color: 'navbar-transparent',
+    }
   }
   componentDidMount() {
-    window.addEventListener("scroll", this.changeColor);
+    window.addEventListener('scroll', this.changeColor)
   }
   componentWillUnmount() {
-    window.removeEventListener("scroll", this.changeColor);
+    window.removeEventListener('scroll', this.changeColor)
   }
   changeColor = () => {
     if (
@@ -51,42 +50,42 @@ class ComponentsNavbar extends React.Component {
       document.body.scrollTop > 99
     ) {
       this.setState({
-        color: "bg-info"
-      });
+        color: 'bg-info',
+      })
     } else if (
       document.documentElement.scrollTop < 100 ||
       document.body.scrollTop < 100
     ) {
       this.setState({
-        color: "navbar-transparent"
-      });
+        color: 'navbar-transparent',
+      })
     }
-  };
+  }
   toggleCollapse = () => {
-    document.documentElement.classList.toggle("nav-open");
+    document.documentElement.classList.toggle('nav-open')
     this.setState({
-      collapseOpen: !this.state.collapseOpen
-    });
-  };
+      collapseOpen: !this.state.collapseOpen,
+    })
+  }
   onCollapseExiting = () => {
     this.setState({
-      collapseOut: "collapsing-out"
-    });
-  };
+      collapseOut: 'collapsing-out',
+    })
+  }
   onCollapseExited = () => {
     this.setState({
-      collapseOut: ""
-    });
-  };
+      collapseOut: '',
+    })
+  }
   scrollToDownload = () => {
     document
-      .getElementById("download-section")
-      .scrollIntoView({ behavior: "smooth" });
-  };
+      .getElementById('download-section')
+      .scrollIntoView({ behavior: 'smooth' })
+  }
   render() {
     return (
       <Navbar
-        className={"fixed-top " + this.state.color}
+        className={'fixed-top ' + this.state.color}
         color-on-scroll="100"
         expand="lg"
       >
@@ -98,7 +97,6 @@ class ComponentsNavbar extends React.Component {
               rel="noopener noreferrer"
               tag={Link}
             >
-
               Modern Fullstack Software Solutions
             </NavbarBrand>
             <button
@@ -112,7 +110,7 @@ class ComponentsNavbar extends React.Component {
             </button>
           </div>
           <Collapse
-            className={"justify-content-end " + this.state.collapseOut}
+            className={'justify-content-end ' + this.state.collapseOut}
             navbar
             isOpen={this.state.collapseOpen}
             onExiting={this.onCollapseExiting}
@@ -122,7 +120,7 @@ class ComponentsNavbar extends React.Component {
               <Row>
                 <Col className="collapse-brand" xs="6">
                   <a href="#pablo" onClick={e => e.preventDefault()}>
-                  Modern Fullstack Software Solutions
+                    Modern Fullstack Software Solutions
                   </a>
                 </Col>
                 <Col className="collapse-close text-right" xs="6">
@@ -173,22 +171,22 @@ class ComponentsNavbar extends React.Component {
                   <p className="d-lg-none d-xl-none">LinkedIn</p>
                 </NavLink>
               </NavItem>
-              <NavItem>
+              <NavItem className="p-0">
                 <a href="/Liam-Neville-Resume.pdf" download>
                   <Button
                     className="nav-link d-none d-lg-block"
                     color="default"
                   >
                     <i className="tim-icons icon-cloud-download-93" /> Resume
-                </Button>
+                  </Button>
                 </a>
               </NavItem>
             </Nav>
           </Collapse>
         </Container>
       </Navbar>
-    );
+    )
   }
 }
 
-export default ComponentsNavbar;
+export default ComponentsNavbar

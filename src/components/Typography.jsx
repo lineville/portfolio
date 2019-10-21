@@ -15,22 +15,21 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React from 'react'
 // reactstrap components
-import { Container } from "reactstrap";
+import { Container } from 'reactstrap'
 
 class Typography extends React.Component {
   render() {
     return (
-        <Container>
-          <div className="space-10" />
-          <div id="images">
-            <h3 className="mb-5">Project Demos</h3>
-            
-          </div>
-        </Container>
-    );
+      <Container>
+        <div />
+        <div id="images">
+          <h3 className="mb-5">Project Demos</h3>
+        </div>
+      </Container>
+    )
   }
 }
 
-export default Typography;
+export default Typography
