@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c0709a8ee761cdcefe74",
-    "url": "/portfolio/static/css/main.de2d5bb8.chunk.css"
+    "revision": "6158b9c163ca2bf89f31",
+    "url": "/portfolio/static/css/main.52af953a.chunk.css"
   },
   {
-    "revision": "c0709a8ee761cdcefe74",
-    "url": "/portfolio/static/js/main.c0709a8e.chunk.js"
+    "revision": "6158b9c163ca2bf89f31",
+    "url": "/portfolio/static/js/main.6158b9c1.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -16,36 +16,32 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/2.91b9d8fb.chunk.js"
   },
   {
-    "revision": "f0b489a5dbbff08833d21024f9fcbd4e",
-    "url": "/portfolio/static/media/nucleo.f0b489a5.woff"
-  },
-  {
     "revision": "5987dd12fea78ce5f97ae601b08ec03c",
     "url": "/portfolio/static/media/nucleo.5987dd12.woff2"
   },
   {
-    "revision": "03ef1918e505c3e3471f9369ef7a638f",
-    "url": "/portfolio/static/media/nucleo.03ef1918.eot"
+    "revision": "f0b489a5dbbff08833d21024f9fcbd4e",
+    "url": "/portfolio/static/media/nucleo.f0b489a5.woff"
   },
   {
     "revision": "b17a118e13e53558658b681a0ebdad82",
     "url": "/portfolio/static/media/nucleo.b17a118e.ttf"
   },
   {
-    "revision": "b81dabc0bc6ca52fce921e3a928d5e0f",
-    "url": "/portfolio/static/media/dots.b81dabc0.png"
+    "revision": "03ef1918e505c3e3471f9369ef7a638f",
+    "url": "/portfolio/static/media/nucleo.03ef1918.eot"
   },
   {
-    "revision": "ca25707397fcc982d7dc1f82555f09a0",
-    "url": "/portfolio/static/media/square1.ca257073.png"
+    "revision": "b81dabc0bc6ca52fce921e3a928d5e0f",
+    "url": "/portfolio/static/media/dots.b81dabc0.png"
   },
   {
     "revision": "6619b9792d7d108bb589b51bbd560278",
     "url": "/portfolio/static/media/square2.6619b979.png"
   },
   {
-    "revision": "ff004a0e5de54ba9dbd8583fa7e1b3f5",
-    "url": "/portfolio/static/media/square5.ff004a0e.png"
+    "revision": "ca25707397fcc982d7dc1f82555f09a0",
+    "url": "/portfolio/static/media/square1.ca257073.png"
   },
   {
     "revision": "23fa76237f0066f4ffd8f20e77449887",
@@ -56,24 +52,28 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/square4.8fdf9ee2.png"
   },
   {
+    "revision": "ff004a0e5de54ba9dbd8583fa7e1b3f5",
+    "url": "/portfolio/static/media/square5.ff004a0e.png"
+  },
+  {
     "revision": "b1e01ebbb0d098277dcc97759bc3f402",
     "url": "/portfolio/static/media/path1.b1e01ebb.png"
   },
   {
-    "revision": "098894095f88df7fdfc4e3d5c0e8679b",
-    "url": "/portfolio/static/media/sensical.09889409.jpeg"
+    "revision": "2a58a0f275cf16902f06fddb932175f5",
+    "url": "/portfolio/static/media/sensical.2a58a0f2.jpeg"
   },
   {
-    "revision": "87e8417f8cb5e6eb5ffb8fd3aae3972f",
-    "url": "/portfolio/static/media/nba-playoff-simulator.87e8417f.JPG"
+    "revision": "127c620d49a8a59d8f9b423288f2619a",
+    "url": "/portfolio/static/media/nba-playoff-simulator.127c620d.JPG"
   },
   {
-    "revision": "3b9eaea1427b6ec1a98d30eae7804ab3",
-    "url": "/portfolio/static/media/graceshopper-shoelala.3b9eaea1.JPG"
+    "revision": "0d69323c08e6c56a712b48346346c541",
+    "url": "/portfolio/static/media/graceshopper-shoelala.0d69323c.JPG"
   },
   {
-    "revision": "dafb511b07bc1584cdc611b0f017f602",
-    "url": "/portfolio/static/media/get-stuff-done.dafb511b.JPG"
+    "revision": "30de9f00415424c694d84856ea17fb81",
+    "url": "/portfolio/static/media/get-stuff-done.30de9f00.JPG"
   },
   {
     "revision": "e37326c7e0fd9826c1a35b231340f58b",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/liam.83129824.jfif"
   },
   {
-    "revision": "e54306b702054e082816c3b1fc03e0c5",
+    "revision": "d9a7645cf6276795da19bbd09d64eb97",
     "url": "/portfolio/index.html"
   }
 ];
