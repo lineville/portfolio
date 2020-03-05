@@ -64,6 +64,14 @@ class Examples extends React.Component {
                 >
                   Sensical
                 </Button>
+                <p>
+                  Interactive, collaborative and customizable learning
+                  environment designed to enable users to code, chat, draw,
+                  video call and more all in one shared space.
+                </p>
+                <p>
+                  Built using Google Cloud FireStore, React and Material UI.
+                </p>
               </Col>
 
               <Col sm="6">
@@ -90,6 +98,12 @@ class Examples extends React.Component {
                 >
                   NBA Playoff Simulator
                 </Button>
+                <p>
+                  Predictive NBA Playoff Simulator which enables users to adjust
+                  the weights of the stats dynamically and simulate the 2018 NBA
+                  Playoffs.
+                </p>
+                <p>Build using Node.js, Express, PostgreSQL and React.</p>
               </Col>
             </Row>
             <br />
@@ -119,6 +133,14 @@ class Examples extends React.Component {
                 >
                   E-Commerce App
                 </Button>
+                <p>
+                  Online shopping website with fully functioning cart and
+                  checkout.
+                </p>
+                <p>
+                  Built using Node.js, Express, React, PostgreSQL, Material
+                  Design and Stripe.
+                </p>
               </Col>
 
               <Col sm="6">
@@ -145,6 +167,15 @@ class Examples extends React.Component {
                 >
                   Todo FireStore-React App
                 </Button>
+                <p>
+                  Todo list app built to production quality featuring 100% PWA
+                  rating, cross-platform mobile responsiveness and a native
+                  desktop experience.
+                </p>
+                <p>
+                  Built using Google Cloud FireStore, React, Material UI, and
+                  Electron.
+                </p>
               </Col>
             </Row>
           </Container>
@@ -204,30 +235,33 @@ class Examples extends React.Component {
 
                   <CardBody>
                     <div className="progress-container progress-info">
-                      <span className="progress-badge">
-                        Willingness to Learn
-                      </span>
-                      <Progress max="100" value="100"></Progress>
-                    </div>
-
-                    <div className="progress-container progress-info">
                       <span className="progress-badge">React</span>
                       <Progress max="100" value="85"></Progress>
                     </div>
 
                     <div className="progress-container progress-info">
                       <span className="progress-badge">Angular</span>
-                      <Progress max="100" value="75"></Progress>
+                      <Progress max="100" value="80"></Progress>
                     </div>
 
                     <div className="progress-container progress-info">
-                      <span className="progress-badge">Java</span>
+                      <span className="progress-badge">Svelte</span>
+                      <Progress max="100" value="60"></Progress>
+                    </div>
+
+                    <div className="progress-container progress-info">
+                      <span className="progress-badge">C# .NET Framework</span>
                       <Progress max="100" value="90"></Progress>
                     </div>
 
                     <div className="progress-container progress-info">
-                      <span className="progress-badge">TypeScript</span>
+                      <span className="progress-badge">Java</span>
                       <Progress max="100" value="85"></Progress>
+                    </div>
+
+                    <div className="progress-container progress-info">
+                      <span className="progress-badge">TypeScript</span>
+                      <Progress max="100" value="90"></Progress>
                     </div>
 
                     <div className="progress-container progress-info">
@@ -237,12 +271,12 @@ class Examples extends React.Component {
 
                     <div className="progress-container progress-info">
                       <span className="progress-badge">Haskell</span>
-                      <Progress max="100" value="40"></Progress>
+                      <Progress max="100" value="50"></Progress>
                     </div>
 
                     <div className="progress-container progress-info">
-                      <span className="progress-badge">C#</span>
-                      <Progress max="100" value="80"></Progress>
+                      <span className="progress-badge">Rust</span>
+                      <Progress max="100" value="65"></Progress>
                     </div>
 
                     <div className="progress-container progress-info">
@@ -253,7 +287,7 @@ class Examples extends React.Component {
                     </div>
 
                     <div className="progress-container progress-info">
-                      <span className="progress-badge">Cloud Firebase</span>
+                      <span className="progress-badge">Cloud Technologies</span>
                       <Progress max="100" value="65"></Progress>
                     </div>
                   </CardBody>
