@@ -42,6 +42,71 @@ class Examples extends React.Component {
             <Row>
               <Col sm="6">
                 <a
+                  to="https://svelte-ts.firebaseapp.com/blackjack"
+                  href="https://svelte-ts.firebaseapp.com/blackjack"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    alt="..."
+                    className="img-raised"
+                    src={require('assets/img/blackjack.jpg')}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  />
+                </a>
+                <Button
+                  className="btn-simple btn-round"
+                  color="primary"
+                  href="https://svelte-ts.firebaseapp.com/blackjack"
+                  id="special-color"
+                  target="_blank"
+                >
+                  BlackJack
+                </Button>
+                <p>
+                  Fully functional BlackJack with transitions, including a basic
+                  strategy AI based after my GrandFather Don.
+                </p>
+                <p>Built using Svelte, TypeScript, and Bulma.</p>
+              </Col>
+
+              <Col sm="6">
+                <a
+                  to="https://svelte-ts.firebaseapp.com/timeline"
+                  href="https://svelte-ts.firebaseapp.com/timeline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    alt="..."
+                    className="img-raised"
+                    src={require('assets/img/covidtimeline.jpg')}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  />
+                </a>
+                <Button
+                  className="btn-simple btn-round"
+                  color="primary"
+                  href="https://svelte-ts.firebaseapp.com/timeline"
+                  id="special-color"
+                  target="_blank"
+                >
+                  Covid19 Live Stats
+                </Button>
+                <p>
+                  Stats tracker that pulls live data related to Covid19, as well
+                  as plotting a real-time, interactive and graphical timeline.
+                </p>
+                <p>Built using Svelte, TypeScript, ChartJs and Bulma.</p>
+              </Col>
+            </Row>
+            <br />
+            <br />
+            <Row>
+              <Col sm="6">
+                <a
                   to="https://sensical.herokuapp.com"
                   href="https://sensical.herokuapp.com"
                   target="_blank"
@@ -178,6 +243,8 @@ class Examples extends React.Component {
                 </p>
               </Col>
             </Row>
+            
+              
           </Container>
         </div>
         <br />
