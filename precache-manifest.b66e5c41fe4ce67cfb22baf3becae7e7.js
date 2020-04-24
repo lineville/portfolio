@@ -1,35 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "05b4a000128fde476838",
+    "revision": "a4cc4d0be2ec6d7a45f9",
     "url": "/portfolio/static/css/main.de2d5bb8.chunk.css"
   },
   {
-    "revision": "05b4a000128fde476838",
-    "url": "/portfolio/static/js/main.05b4a000.chunk.js"
+    "revision": "a4cc4d0be2ec6d7a45f9",
+    "url": "/portfolio/static/js/main.a4cc4d0b.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.53ebc025.js"
   },
   {
-    "revision": "91b9d8fb03d38189e208",
-    "url": "/portfolio/static/js/2.91b9d8fb.chunk.js"
+    "revision": "b6022d5a3815d43c023c",
+    "url": "/portfolio/static/js/2.b6022d5a.chunk.js"
+  },
+  {
+    "revision": "5987dd12fea78ce5f97ae601b08ec03c",
+    "url": "/portfolio/static/media/nucleo.5987dd12.woff2"
   },
   {
     "revision": "03ef1918e505c3e3471f9369ef7a638f",
     "url": "/portfolio/static/media/nucleo.03ef1918.eot"
   },
   {
-    "revision": "b17a118e13e53558658b681a0ebdad82",
-    "url": "/portfolio/static/media/nucleo.b17a118e.ttf"
-  },
-  {
     "revision": "f0b489a5dbbff08833d21024f9fcbd4e",
     "url": "/portfolio/static/media/nucleo.f0b489a5.woff"
   },
   {
-    "revision": "5987dd12fea78ce5f97ae601b08ec03c",
-    "url": "/portfolio/static/media/nucleo.5987dd12.woff2"
+    "revision": "b17a118e13e53558658b681a0ebdad82",
+    "url": "/portfolio/static/media/nucleo.b17a118e.ttf"
   },
   {
     "revision": "b81dabc0bc6ca52fce921e3a928d5e0f",
@@ -40,14 +40,6 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/square1.ca257073.png"
   },
   {
-    "revision": "ff004a0e5de54ba9dbd8583fa7e1b3f5",
-    "url": "/portfolio/static/media/square5.ff004a0e.png"
-  },
-  {
-    "revision": "6619b9792d7d108bb589b51bbd560278",
-    "url": "/portfolio/static/media/square2.6619b979.png"
-  },
-  {
     "revision": "23fa76237f0066f4ffd8f20e77449887",
     "url": "/portfolio/static/media/square3.23fa7623.png"
   },
@@ -56,8 +48,24 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/square4.8fdf9ee2.png"
   },
   {
+    "revision": "6619b9792d7d108bb589b51bbd560278",
+    "url": "/portfolio/static/media/square2.6619b979.png"
+  },
+  {
+    "revision": "ff004a0e5de54ba9dbd8583fa7e1b3f5",
+    "url": "/portfolio/static/media/square5.ff004a0e.png"
+  },
+  {
     "revision": "b1e01ebbb0d098277dcc97759bc3f402",
     "url": "/portfolio/static/media/path1.b1e01ebb.png"
+  },
+  {
+    "revision": "b1b4a9c288d4378d87103dfd44bc3f97",
+    "url": "/portfolio/static/media/blackjack.b1b4a9c2.jpg"
+  },
+  {
+    "revision": "2e9cfda505762059edba9afe5b9d4c19",
+    "url": "/portfolio/static/media/covidtimeline.2e9cfda5.jpg"
   },
   {
     "revision": "2a58a0f275cf16902f06fddb932175f5",
@@ -84,7 +92,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/liam.83129824.jfif"
   },
   {
-    "revision": "e4388bed873632daeea9b09ffaae3261",
+    "revision": "673b511a441e6c4894dbb8f1a6025808",
     "url": "/portfolio/index.html"
   }
 ];
