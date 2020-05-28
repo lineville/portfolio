@@ -15,7 +15,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React from 'react'
 import {
   Button,
   Container,
@@ -25,7 +25,7 @@ import {
   CardBody,
   CardHeader,
   Progress,
-} from "reactstrap";
+} from 'reactstrap'
 
 class Examples extends React.Component {
   render() {
@@ -35,76 +35,10 @@ class Examples extends React.Component {
           <img
             alt="..."
             className="path"
-            src={require("assets/img/path1.png")}
+            src={require('assets/img/path1.png')}
           />
           {/* <div className="space-20" /> */}
           <Container className="text-center">
-            <Row>
-              <Col sm="6">
-                <a
-                  to="https://breakeven.dev"
-                  href="https://breakeven.dev"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require("assets/img/blackjack.jpg")}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  />
-                </a>
-                <Button
-                  className="btn-simple btn-round"
-                  color="primary"
-                  href="https://breakeven.dev"
-                  id="special-color"
-                  target="_blank"
-                >
-                  BlackJack
-                </Button>
-                <p>
-                  Casino BlackJack with a focus on fluid UI transitions,
-                  including card counter and basic strategy derived hints
-                  inspired by my late GrandFather Don.
-                </p>
-                <p>Built using Svelte, TypeScript, and Bulma.</p>
-              </Col>
-
-              <Col sm="6">
-                <a
-                  to="https://svelte-ts.firebaseapp.com/timeline"
-                  href="https://svelte-ts.firebaseapp.com/timeline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require("assets/img/covidtimeline.jpg")}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  />
-                </a>
-                <Button
-                  className="btn-simple btn-round"
-                  color="primary"
-                  href="https://svelte-ts.firebaseapp.com/timeline"
-                  id="special-color"
-                  target="_blank"
-                >
-                  Covid19 Live Stats
-                </Button>
-                <p>
-                  Stats tracker that pulls live data related to Covid19, as well
-                  as plotting a real-time, interactive and graphical timeline.
-                </p>
-                <p>Built using Svelte, TypeScript, ChartJs and Bulma.</p>
-              </Col>
-            </Row>
-            <br />
-            <br />
             <Row>
               <Col sm="6">
                 <a
@@ -116,7 +50,7 @@ class Examples extends React.Component {
                   <img
                     alt="..."
                     className="img-raised"
-                    src={require("assets/img/sensical.jpeg")}
+                    src={require('assets/img/sensical.jpeg')}
                     target="_blank"
                   />
                 </a>
@@ -142,6 +76,72 @@ class Examples extends React.Component {
 
               <Col sm="6">
                 <a
+                  to="https://breakeven.dev/blackjack"
+                  href="https://breakeven.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    alt="..."
+                    className="img-raised"
+                    src={require('assets/img/blackjack.jpeg')}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  />
+                </a>
+                <Button
+                  className="btn-simple btn-round"
+                  color="primary"
+                  href="https://breakeven.dev"
+                  id="special-color"
+                  target="_blank"
+                >
+                  BlackJack
+                </Button>
+                <p>
+                  Casino BlackJack with a focus on fluid UI transitions,
+                  including card counter and basic strategy derived hints
+                  inspired by my late GrandFather Don.
+                </p>
+                <p>Built using Svelte, TypeScript, and Bulma.</p>
+              </Col>
+            </Row>
+            <br />
+            <br />
+            <Row>
+              <Col sm="6">
+                <a
+                  to="https://svelte-ts.firebaseapp.com/timeline"
+                  href="https://svelte-ts.firebaseapp.com/timeline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    alt="..."
+                    className="img-raised"
+                    src={require('assets/img/covidtimeline.jpeg')}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  />
+                </a>
+                <Button
+                  className="btn-simple btn-round"
+                  color="primary"
+                  href="https://svelte-ts.firebaseapp.com/timeline"
+                  id="special-color"
+                  target="_blank"
+                >
+                  Covid19 Live Stats
+                </Button>
+                <p>
+                  Stats tracker that pulls live data related to Covid19, as well
+                  as plotting a real-time, interactive and graphical timeline.
+                </p>
+                <p>Built using Svelte, TypeScript, ChartJs and Bulma.</p>
+              </Col>
+
+              <Col sm="6">
+                <a
                   to="https://nba-playoff-simulator.herokuapp.com/"
                   href="https://nba-playoff-simulator.herokuapp.com/"
                   target="_blank"
@@ -150,7 +150,7 @@ class Examples extends React.Component {
                   <img
                     alt="..."
                     className="img-raised"
-                    src={require("assets/img/nba-playoff-simulator.JPG")}
+                    src={require('assets/img/nba-playoff-simulator.jpeg')}
                     target="_blank"
                     rel="noopener noreferrer"
                   />
@@ -185,7 +185,7 @@ class Examples extends React.Component {
                   <img
                     alt="..."
                     className="img-raised"
-                    src={require("assets/img/graceshopper-shoelala.JPG")}
+                    src={require('assets/img/graceshopper-shoelala.jpeg')}
                     target="_blank"
                     rel="noopener noreferrer"
                   />
@@ -219,7 +219,7 @@ class Examples extends React.Component {
                   <img
                     alt="..."
                     className="img-raised"
-                    src={require("assets/img/get-stuff-done.JPG")}
+                    src={require('assets/img/get-stuff-done.jpeg')}
                     target="_blank"
                     rel="noopener noreferrer"
                   />
@@ -256,12 +256,12 @@ class Examples extends React.Component {
           <img
             alt="..."
             className="dots"
-            src={require("assets/img/dots.png")}
+            src={require('assets/img/dots.png')}
           />
           <img
             alt="..."
             className="path"
-            src={require("assets/img/path4.png")}
+            src={require('assets/img/path4.png')}
           />
           <Container className="align-items-center">
             <Row>
@@ -291,7 +291,7 @@ class Examples extends React.Component {
                     <img
                       alt="..."
                       className="img-center img-fluid rounded-circle"
-                      src={require("assets/img/liam.jfif")}
+                      src={require('assets/img/liam.jfif')}
                       z-index={2}
                     />
                     <h4 className="title text-center" id="special-color">
@@ -363,8 +363,8 @@ class Examples extends React.Component {
           </Container>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Examples;
+export default Examples

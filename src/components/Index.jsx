@@ -15,21 +15,21 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React from 'react'
 
 // core components
-import IndexNavbar from "./IndexNavbar";
-import PageHeader from "./PageHeader"
-import Footer from "./Footer"
-import Examples from "./Examples"
-import Typography from "./Typography"
+import IndexNavbar from './IndexNavbar'
+import PageHeader from './PageHeader'
+import Footer from './Footer'
+import Examples from './Examples'
+import Typography from './Typography'
 
 class Index extends React.Component {
   componentDidMount() {
-    document.body.classList.toggle("index-page");
+    document.body.classList.toggle('index-page')
   }
   componentWillUnmount() {
-    document.body.classList.toggle("index-page");
+    document.body.classList.toggle('index-page')
   }
   render() {
     return (
@@ -44,8 +44,8 @@ class Index extends React.Component {
           <Footer />
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Index;
+export default Index

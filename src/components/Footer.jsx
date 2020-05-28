@@ -15,17 +15,9 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React from 'react'
 // reactstrap components
-import {
-  Button,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-  Row,
-  Col,
-} from "reactstrap";
+import { Button, NavItem, NavLink, Nav, Container, Row, Col } from 'reactstrap'
 
 class Footer extends React.Component {
   render() {
@@ -34,7 +26,7 @@ class Footer extends React.Component {
         <Container>
           <Row>
             <Col md="6">
-              <h3 className="title">Modern Fullstack Software Solutions</h3>
+              <h3 className="title">Liam Neville</h3>
             </Col>
             <Col md="1">
               <Nav>
@@ -48,7 +40,6 @@ class Footer extends React.Component {
             <Col md="3">
               <h3 className="title">Follow me</h3>
               <div className="btn-wrapper profile">
-
                 <Button
                   className="btn-icon btn-round"
                   color="medium"
@@ -78,8 +69,8 @@ class Footer extends React.Component {
           </Row>
         </Container>
       </footer>
-    );
+    )
   }
 }
 
-export default Footer;
+export default Footer
