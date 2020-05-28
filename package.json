@@ -27,7 +27,6 @@
   ],
   "author": "Liam Neville",
   "license": "MIT",
-  "homepage": "https://lineville.github.io/portfolio",
   "dependencies": {
     "chart.js": "2.7.3",
     "classnames": "2.2.6",
