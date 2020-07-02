@@ -342,7 +342,7 @@ class Examples extends React.Component {
 
                     <div className="progress-container progress-info">
                       <span className="progress-badge">Rust</span>
-                      <Progress max="100" value="65"></Progress>
+                      <Progress max="100" value="80"></Progress>
                     </div>
 
                     <div className="progress-container progress-info">
