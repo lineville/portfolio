@@ -27,8 +27,20 @@ import {
   Progress,
 } from 'reactstrap'
 
-class Examples extends React.Component {
+class Examples extends React.PureComponent {
   render() {
+    let skills = new Map()
+    skills.set('C# .NET', 90)
+    skills.set('TypeScript', 90)
+    skills.set('Angular', 85)
+    skills.set('React', 80)
+    skills.set('Svelte', 80)
+    skills.set('Rust', 80)
+    skills.set('Java', 75)
+    skills.set('Python', 65)
+    skills.set('Haskell', 60)
+    skills.set('Relational Databases', 60)
+    skills.set('Cloud Technologies', 50)
     return (
       <div className="wrapper">
         <div className="section section-examples" data-background-color="black">
@@ -37,7 +49,6 @@ class Examples extends React.Component {
             className="path"
             src={require('assets/img/path1.png')}
           />
-          {/* <div className="space-20" /> */}
           <Container className="text-center">
             <Row>
               <Col sm="6">
@@ -300,62 +311,15 @@ class Examples extends React.Component {
                   </CardHeader>
 
                   <CardBody>
-                    <div className="progress-container progress-info">
-                      <span className="progress-badge">React</span>
-                      <Progress max="100" value="85"></Progress>
-                    </div>
-
-                    <div className="progress-container progress-info">
-                      <span className="progress-badge">Angular</span>
-                      <Progress max="100" value="80"></Progress>
-                    </div>
-
-                    <div className="progress-container progress-info">
-                      <span className="progress-badge">Svelte</span>
-                      <Progress max="100" value="60"></Progress>
-                    </div>
-
-                    <div className="progress-container progress-info">
-                      <span className="progress-badge">C# .NET Framework</span>
-                      <Progress max="100" value="90"></Progress>
-                    </div>
-
-                    <div className="progress-container progress-info">
-                      <span className="progress-badge">Java</span>
-                      <Progress max="100" value="85"></Progress>
-                    </div>
-
-                    <div className="progress-container progress-info">
-                      <span className="progress-badge">TypeScript</span>
-                      <Progress max="100" value="90"></Progress>
-                    </div>
-
-                    <div className="progress-container progress-info">
-                      <span className="progress-badge">Python</span>
-                      <Progress max="100" value="70"></Progress>
-                    </div>
-
-                    <div className="progress-container progress-info">
-                      <span className="progress-badge">Haskell</span>
-                      <Progress max="100" value="50"></Progress>
-                    </div>
-
-                    <div className="progress-container progress-info">
-                      <span className="progress-badge">Rust</span>
-                      <Progress max="100" value="80"></Progress>
-                    </div>
-
-                    <div className="progress-container progress-info">
-                      <span className="progress-badge">
-                        Relational Databases
-                      </span>
-                      <Progress max="100" value="75"></Progress>
-                    </div>
-
-                    <div className="progress-container progress-info">
-                      <span className="progress-badge">Cloud Technologies</span>
-                      <Progress max="100" value="65"></Progress>
-                    </div>
+                    {[...skills.keys()].map((skill) => (
+                      <div className="progress-container progress-info">
+                        <span className="progress-badge">{skill}</span>
+                        <Progress
+                          max="100"
+                          value={skills.get(skill)}
+                        ></Progress>
+                      </div>
+                    ))}
                   </CardBody>
                 </Card>
               </Col>
