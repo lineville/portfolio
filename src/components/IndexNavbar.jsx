@@ -28,6 +28,8 @@ import {
   Container,
   Row,
   Col,
+  Toast,
+  ToastBody,
 } from 'reactstrap'
 
 class ComponentsNavbar extends React.Component {
@@ -135,6 +137,21 @@ class ComponentsNavbar extends React.Component {
               </Row>
             </div>
             <Nav navbar>
+              <div
+                className="p-3 bg-info my-2 rounded"
+                style={{ marginRight: 10 }}
+              >
+                <a
+                  href="https://daily-coding-problems.herokuapp.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: 'white' }}
+                >
+                  <Toast>
+                    <ToastBody>Daily Coding Problems!</ToastBody>
+                  </Toast>
+                </a>
+              </div>
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
